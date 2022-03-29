@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Contacts
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Contacts</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+    <ion-list>
+      <ion-item>
+     
+        <ion-thumbnail item-start>
+          <img src="assets/avatar.jpg">
+        </ion-thumbnail>
+        Marky <br>
+        09607243123
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="call-outline" style="color: lime;"></ion-icon></ion-button>
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="mail-outline"></ion-icon></ion-button>
+       </ion-item>
+       <ion-item>
+     
+        <ion-thumbnail item-start>
+          <img src="assets/avatar.jpg">
+        </ion-thumbnail>
+        Jemma <br>
+        09607243123
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="call-outline" style="color: lime;"></ion-icon></ion-button>
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="mail-outline"></ion-icon></ion-button>
+       </ion-item>
+       <ion-item>
+     
+        <ion-thumbnail item-start>
+          <img src="assets/avatar.jpg">
+        </ion-thumbnail>
+        Marvin <br>
+        09607243123
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="call-outline" style="color: lime;"></ion-icon></ion-button>
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="mail-outline"></ion-icon></ion-button>
+       </ion-item>
+       <ion-item>
+     
+        <ion-thumbnail item-start>
+          <img src="assets/avatar.jpg">
+        </ion-thumbnail>
+        Alfred <br>
+        09607243123
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="call-outline" style="color: lime;"></ion-icon></ion-button>
+      <ion-button (click)="presentActionSheet()" ><ion-icon name="mail-outline"></ion-icon></ion-button>
+       </ion-item>
+    </ion-list>
+  
+  
+</ion-content>
